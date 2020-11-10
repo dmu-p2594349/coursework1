@@ -30,6 +30,15 @@
         <div>
       <h2> Tall cakes</h2>
       <p>Tall cakes have many many layers, make them last longer, perfect for weddings!</p>
+          
+       <!-- ***
+            This is all great so far. At this point though you run into a problem. You've not uploaded the media along with
+            the html file. This first img element for example is telling the browser to look in a folder called img, but
+            there is no folder called img in your GitHub repo.
+
+            Additionally, folders don't have file extensions. There should be no .html after the folder names.
+            *** -->
+          
   <img src="img.html/tall cake.png"/>
   <img src="img.html/gif cake img.gif"/>
   </div>
@@ -38,6 +47,16 @@
   <p>Short cakes are delicious very easy to eat,could have a whole one to yourself if you wanted!</p>
   <img src="img.html/short cake.jpg"/>
   </div>
+        
+  <!-- ***
+       The URLs you've provided for these source elements are problematic. They're full URLs on your system, not 
+       relative urls within your website folder structure. 
+
+       For example, the first one shoudl be something like:
+       <source src="audio/audio1.wav" type="audio/wav" />
+
+      You've also not included a fallback for browsers that don't support the audio element, or included a closing </audio> tag.
+      *** -->
   <audio controls loop autoplay muted width="100%">
   <source src="C:\Users\berti\OneDrive\Desktop\atom\cakes ]html\img.html\aud.html\audio 1.wav" type="audio/wav" />
   <source src="C:\Users\berti\OneDrive\Desktop\atom\cakes ]html\img.html\aud.html\audio 1 mp3.mp3" type="audio/mpeg" />
