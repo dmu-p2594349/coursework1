@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"/>
+        <title></title>
+    <style>
+      h1,h2, {
+        color: rgb(15,14,24);
+        font-size: 2cm;
+      }
+     a,p,h3{
+      color: rgb(15,14,24);
+       font-size:1cm;
+     }
+      p{
+        font-family: arial, helvetica, sans-serif;
+        font-weight: italic;
+        border-radius: 3px;
+        color:  rgb(15,14,24);
+      }
+      div,{
+        width: 50%;
+        float: left;
+      }
+
+      img{
+        width: 50%;
+        float: left;
+      }
+
+      section::after {
+        content:"";
+        display: block;
+        clear: both;
+      }
+
+
+      </style>
+  </head>
+    <body style="background-color: rgb(192,3,4)">
+      <h1> Spiderman Into The Spiderverse </h1>
+      <a href="about.html">about</a>
+      <section>
+      <div class="col">
+      <h2>Shameik Moore- Miles Morales</h2>
+      <img src="img.html/shameik moore.jpg"/>
+      </div>
+      <div class="col">
+  <p>Shameik Moore was born in Atlanta in 1995, his first major acting role was playing Malcome in Ricks Famuyiwa's 'Dope'. In 2015
+     he had more acting roles in different movies and series such as 'The Get Down' between 2016 and 2017 and then being part of
+      Into The spiderverse playing the main character Miles Morales.
+      </P>
+      <h3> Shameik Moore's interview with Get Into Film
+      <audio controls src="aud.html/Shameik Moore Interview - Spider-Man Into the Spider-Verse.mp3">
+    </div>
+  </section>
+  <h2> Jake Johnson- Peter B Parker </h2>
+  <img src="img.html/jake johnson.jpg"/>
+  <p> Jake Johnson was born in 1978 in Illmois and is an actor, comedian and director, most commonly known for playing Nick Miller in the Fox comedy series New Girl
+    opposite Zooey Deschanel, for which he has received a Teen Choice Award nomination among others. He has had a lengthy career but most recently was his role in
+    Into The Spiderverse playing Peter B Parker which he was highly credited for due to his great performance really making his charcter come to life. </p>
+    <h3> Jake Johnson's interview with the A.V Club </h3>
+    <audio controls src="aud.html/Jake Johnson on always playing the part of the schlubby, laid back guy.mp3">
+
+  </body>
+</html>
